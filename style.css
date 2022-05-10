@@ -1,0 +1,227 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.Container {
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    background-color: #FFFFFF;
+}
+
+header {
+    width: 1440px;
+    margin-top: 50px;
+    margin-left: 80px
+}
+
+.Logo {
+    position: absolute;
+    width: 162px;
+    height: 66px;
+    font-weight: 700;
+    font-size: 54px;
+    line-height: 66px;
+    color: #E10F15;
+}
+
+
+.Point {
+    position: absolute;
+    color: #C2C2C2;
+}
+
+nav {
+    margin-left: 281px;
+    margin-top: 15px;
+
+}
+
+.Link {
+    cursor: pointer;
+    margin-right: 61px;
+    width: 79px;
+    height: 29px;
+    font-size: 24px;
+    letter-spacing: 0.05em;
+
+}
+
+.Link:hover{
+    opacity: 0.5;
+}
+
+.Link:active{
+    opacity: 0.8;
+}
+
+input {
+    position: absolute;
+    cursor: pointer;
+    padding-left: 25px;
+    margin-left: 52px;
+    width: 414px;
+    height: 52px;
+    background: #F6F6F6;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 30px;
+}
+
+input::placeholder {
+    width: 118px;
+    height: 20px;
+
+    font-family: 'Montserrat';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0.05em;
+    color: #000000;
+}
+
+.magnifier{
+    position: absolute;
+    margin-top: 12px;
+    margin-left: 403px;
+}
+
+section{    
+    position: absolute;
+    width: 562px;
+    height: 364px;
+
+}
+
+h1{
+    width: 562px;
+    height: 364px;
+    margin-top: 266px;
+    margin-left: 80px;
+    font-size: 123px;
+    line-height: 150px;
+    letter-spacing: 0.05em;
+}
+
+.Air{
+   color:#C2C2C2;
+}
+
+.Text{
+    margin-left: 45px;
+    width: 526px;
+    height: 85px;
+    font-size: 20px;
+    letter-spacing: 0.5px;
+
+}
+
+.Sneakers-Section-Display{
+    position: absolute;
+    display: block;
+    margin-left: 500px;
+}
+
+.Sneakers-Section-Display-2{
+    display: contents;
+    position: absolute;
+    margin-top: 134px;
+    margin-left: 500px;
+}
+
+.Sneakers-Section-Display-3{
+    display: contents;
+    position: absolute;
+    margin-top: 134px;
+    margin-left: 500px;
+}
+
+aside{
+    position: absolute;
+    width: 159px;
+    height: 373px;
+    margin-top: 255px;
+    margin-left: 1301px;
+}
+
+.Div-Sneakers-Aside{
+    cursor: pointer;
+    margin-top: 25px;
+    margin-left: 29px;
+    width: 99px;
+    height: 99px;
+    border-radius: 50px;
+}
+
+.Sneakers-Image-Aside{
+    width: 90px;
+    height: 91px;
+}
+
+.Sneakers-Image-Aside:hover{
+
+    border:1px #C2C2C2 solid; 
+    border-radius: 50px;
+    transition-duration:1000ms;
+    transform:scale(1.5);
+    opacity: 0.8;
+}
+
+
+
+button{
+    cursor: pointer;
+    margin-top: 25px;
+    margin-left: 80px;
+    font-weight: 500;
+    font-size: 32px;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+    width: 324px;
+    height: 71px;
+    background: #E10F15;
+    box-shadow: 0px 5px 7px rgb(225 15 21 / 25%);
+    border-radius: 30px;
+    border: none;
+}
+
+button:hover{
+    transform:scale(1.2);
+}
+
+button:active{
+    color: #FFFFFF;
+    background: #000000;
+    opacity: 0.5;
+}
+
+@media screen and (max-width:620px) {
+    nav{
+        margin-left: 31px;
+    }
+
+    .Link{
+            font-size: 35px;
+    }
+
+    .Logo{
+        margin-top: 708px;
+        margin-left: 900px;
+    }
+
+    .Text{
+        width: 816px;
+        font-size: 43px;
+        margin-top: 50px;
+    }
+
+    button{
+        width: 377px;
+        height: 104px;
+        margin-left: 489px;
+        margin-top: 300px;
+    }
+}
