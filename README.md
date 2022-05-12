@@ -20,7 +20,7 @@
 
 <h2 align="center"><b>📝 Sobre o Projeto</b></h2>
 
-* Projeto Criado com Finalidade de Treinar Conhecimentos sobre HTML, CSS, JS e Responsividade
+* Projeto Criado com Finalidade de Praticar Conhecimentos sobre HTML, CSS, JS e Responsividade
 
 <br>
 
@@ -34,14 +34,13 @@
 
 ------------
 
-<h2 align="center">🤖 FUNCIONALIDADES:</h2>
+
+<p>Abaixo Estarei deixando Um Gif com algumas estilizações criadas com JS
 
 
 ![Site-Nike](https://user-images.githubusercontent.com/93807470/167737404-c2a8d9ea-ec88-4b81-8b4a-a910fbf98879.gif)
 
 ----------
-
-![Site-Nike-Responsividade](https://user-images.githubusercontent.com/93807470/167737326-b4af46d2-a649-4e09-898e-6d80a757a192.gif)
 
  <table>
   <tr>
